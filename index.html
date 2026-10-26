@@ -26,8 +26,8 @@
 <script>
 /* ADD NEW EDITIONS HERE. Date format must be YYYY-MM-DD. The newest edition automatically comes first. */
 const EDITIONS = [
-  { date: '2026-10-26', title: 'October 26, 2026', label: 'Oct 26', file: 'editions/2026-10-26.html' },
-  { date: '2026-10-22', title: 'October 22, 2026', label: 'Oct 22', file: 'editions/2026-10-22.html' }
+  { date: '2026-10-26', title: 'October 26, 2026', label: 'Oct 26', file: '2026-10-26.html' },
+  { date: '2026-10-22', title: 'October 22, 2026', label: 'Oct 22', file: '2026-10-22.html' }
 ];
 /* Each future week: upload a new HTML file to /editions, then add one entry above/below. No need to edit the rest of the website. */
 const editions = EDITIONS.slice().sort((a,b)=>b.date.localeCompare(a.date));
